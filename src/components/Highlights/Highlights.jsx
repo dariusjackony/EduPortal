@@ -17,7 +17,7 @@ export default function Highlights(){
 
     return(
      <section className="highlights">
-        <h2 className="highlight-title">What Makes Us Stand Out</h2>
+        <span className="highlight-title">What Makes Us Stand Out</span>
         <div className="highlight-card">
            {HighlightData.map((item,index) =>(
             <div className="card" key={index}>
