@@ -48,8 +48,14 @@
   .about-title{
     font-size: 18px;
   }
+  .images-part {
+  display: flex;          
+  flex-wrap: wrap;   
+  justify-content: center;  
+  gap: 10px;               
+}
   .about-img{
-    width: 100%;
+    width: 80%;
   }
   .about-subtitle{
     font-size: 24px;
