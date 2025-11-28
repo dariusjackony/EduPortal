@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.highlights .title {
+.highlight-title {
   font-size: 2rem;
   margin-bottom: 30px;
   font-weight: 600;
@@ -39,4 +39,13 @@
   font-size: 0.95rem;
   color: #444;
   line-height: 1.5;
+}
+
+@media (max-width: 768px){
+  .highlight-title{
+    font-size: 24px;
+  }
+  .card-title{
+    font-size: 18px;
+  }
 }
