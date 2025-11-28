@@ -74,28 +74,34 @@
     left: 0;
     
     }
+    .nav-logo{
+        width: 40px;
+    }
+    .logo-name{
+        font-size: 20px;
+    }
     .nav-links {
-    flex-direction: column;
-    gap: 20px;
-    background: white;
     position: absolute;
     top: 70px;
     right: 10px;
-    padding: 20px;
-    border-radius: 8px;
     width: 200px;
-    display: none;
-  }
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    gap: 20px;
 
-  .nav-links.open {
+    display: none; 
+  }
+  .nav-links.Open {
     display: flex; 
+    flex-direction: column;
   }
 
   .hamburger {
     display: block; 
     cursor: pointer;
-    margin-left: 50px;
-    font-size: 35px;
+    margin-left: 200px;
+    font-size: 33px;
   }
 
   .nav-lang,
