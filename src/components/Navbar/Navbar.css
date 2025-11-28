@@ -1,8 +1,6 @@
 .navbar-container{
     background-color: white;
     padding: 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 .nav-items{
     display: flex;
@@ -100,7 +98,7 @@
   .hamburger {
     display: block; 
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 160px;
     font-size: 33px;
   }
 
