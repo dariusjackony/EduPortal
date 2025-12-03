@@ -32,7 +32,8 @@
   display: flex;          
   flex-wrap: wrap;   
   justify-content: center;  
-  gap: 15px;               
+  gap: 15px;              
+  margin-top: 25px; 
 }
 .about-img {
   width: 30%;             
@@ -44,20 +45,10 @@
 .about-img:hover {
   transform: scale(1.05);   
 }
-@media (max-width: 768px){
-  .about-title{
-    font-size: 18px;
-  }
-  .images-part {
-  display: flex;          
-  flex-wrap: wrap;   
-  justify-content: center;  
-  gap: 10px;               
-}
-  .about-img{
-    width: 80%;
-  }
-  .about-subtitle{
-    font-size: 24px;
-  }
+@media (max-width: 768px) {
+    .about-main { padding: 60px 5%; }
+    .about-subtitle { font-size: 1.8rem; }
+    .about-paragraph { font-size: 1.05rem; padding: 0 10px; }
+    .images-part { flex-direction: column; align-items: center; gap: 20px; }
+    .about-img { width: 90%; max-width: 420px; height: 220px; border-radius: 12px; }
 }

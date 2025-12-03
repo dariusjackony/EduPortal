@@ -2,7 +2,7 @@ import "./Hero.css";
 import backg from "../../assets/backg.jpeg";
 function Hero(){
     return(
-        <section className="hero" 
+        <section className="hero fade-in" 
          style={{ backgroundImage: `url(${backg})` }}
         >
           <div className="hero-content">

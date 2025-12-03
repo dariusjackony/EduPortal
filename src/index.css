@@ -7,3 +7,6 @@ body{
     font-family: "Special Gothic", sans-serif;
     background-color: rgb(236, 236, 236);
 }
+html{
+  scroll-behavior: smooth;
+}

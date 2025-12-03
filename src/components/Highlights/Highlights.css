@@ -43,12 +43,15 @@
   line-height: 1.5;
 }
 
-@media (max-width: 768px){
-  .highlight-title{
-    font-size: 24px;
-    text-align: center;
-  }
-  .card-title{
-    font-size: 18px;
-  }
+@media (max-width: 768px) {
+    .highlights { padding: 60px 5%; }
+    .highlight-title { font-size: 1.7rem; margin-bottom: 40px; }
+    .highlight-card { 
+        grid-template-columns: 1fr; 
+        gap: 24px; 
+        max-width: 100%; 
+        padding: 0 10px; 
+    }
+    .card { padding: 28px 20px; }
+    .card-title { font-size: 1.25rem; }
 }

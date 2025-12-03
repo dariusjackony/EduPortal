@@ -5,7 +5,8 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    
+    min-height: 100vh;
+    position: relative;
 }
 
 .hero::before {
@@ -53,18 +54,37 @@
     border-radius: 5px;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .hero-content{
-        padding: 20px;
-    }
-    .hero-title {
-        font-size: 35px;
-    }
-    .hero-subtitle{
-        font-size: 20px;
-        line-height: 1.1;
-    }
-    .hero-buttons{
 
+@media (max-width: 768px) {
+    .hero {
+        padding: 120px 5% 80px;    
+        padding: 15vh 5% 10vh;     
+        min-height: unset;       
+    }
+
+    .hero-title {
+        font-size: 2rem;        
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;      
+        margin-top: 16px;
+        line-height: 1.4;
+    }
+
+    .hero-buttons {
+        margin-top: 28px;
+        flex-direction: column; 
+        align-items: center;
+        gap: 12px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 14px 24px;
+        font-size: 1rem;
+        width: 80%;             
+        max-width: 280px;
     }
 }
