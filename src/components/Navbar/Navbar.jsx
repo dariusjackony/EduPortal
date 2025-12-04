@@ -1,6 +1,7 @@
 import Logo from "../../assets/logo.svg";
 import LangLogo from "../../assets/language.svg";
 import "./Navbar.css"
+import { Link } from "react-router-dom";
 import { useState } from "react";
 function Navbar(){
     const [Open , setOpen] = useState(false);
@@ -13,9 +14,9 @@ function Navbar(){
              </a>
 
                 <div className= {`nav-links ${Open ? "Open" : ""}`}>
-                    <ul className="navigation-links">
-                        <li>Home</li>
-                        <li>About</li>
+                    <ul className="navigation-links" onClick={() => setOpen(false)}>
+                        <Link to='/'><li>Home</li></Link> 
+                        <Link to='/About'><li >About</li></Link>
                         <li>Academics</li>
                         <li>Gallery</li>
                         <li>Contact</li>

@@ -3,7 +3,7 @@ import Highlights from "../../components/Highlights/Highlights";
 import AboutPreview from "../../components/AboutPreview/AboutPreview";
 import ShortPreview from "../../components/ShortPreview/ShortPreview";
 import Events from "../../components/Events/Events";
-import NewsPreview from "../../NewsPreview/NewsPreview";
+import NewsPreview from "../../components/NewsPreview/NewsPreview";
 import GalleryPreview from "../../components/GalleryPreview/GalleryPreview";
 import Contact from "../../components/ContactCTA/Contact";
 function Home(){

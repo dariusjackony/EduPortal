@@ -1,5 +1,5 @@
 import "./NewsPreview.css";
-import scienceFair from "../assets/EventPreview/students.jpeg";
+import scienceFair from "../../assets/EventPreview/students.jpeg";
 export default function NewsPreview(){
     const newsData = [
         {

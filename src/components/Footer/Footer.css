@@ -32,3 +32,27 @@
     margin-top: 5px;
     color: rgb(202, 201, 201);
 }
+@media (max-width: 768px) {
+  .footer-container{
+    margin-top: 35px;
+  }
+  .footer-data {   
+    text-align: center;
+    gap: 20px;                 
+    padding: 25px 10px;
+  }
+
+  .footer-data p {
+    margin-top: 5px;            
+    font-size: 15px;            
+  }
+
+  .footer-about-head {
+    font-size: 18px;
+  }
+
+  .footer-copy {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
