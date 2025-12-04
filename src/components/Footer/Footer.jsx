@@ -31,7 +31,7 @@ export default function Footer(){
             </div>
              <hr className="footer-hr"/>
             <p className="footer-copy">
-              Built with ❤️, live from Darius. {currentYear} 
+              Built with ❤️, live from Darius. {currentYear}    
               EduPortal School. All Rights Reserved.
             </p>
 

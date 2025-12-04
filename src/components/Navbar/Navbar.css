@@ -39,6 +39,7 @@
 }
 .navigation-links li{
     list-style: none;
+    color: rgb(0, 0, 0);
 }
 .navigation-links li:hover{
     cursor: pointer;

@@ -1,0 +1,14 @@
+.about-hero{
+    margin-top: 35px;
+}
+.about-head-container{
+    padding: 20px 5%;
+}
+.about-head-title{
+    font-size: 2rem;
+}
+.about-head-para{
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.6; 
+}

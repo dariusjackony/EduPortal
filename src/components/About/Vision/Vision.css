@@ -1,0 +1,14 @@
+.vision-container{
+    margin-top: 25px;
+}
+.vision-content{
+    padding: 20px 5%;
+}
+.vision-head{
+    font-size: 2rem;
+}
+.vision-paragraph{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.6; 
+}

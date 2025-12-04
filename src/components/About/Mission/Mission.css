@@ -1,0 +1,14 @@
+.mission-container{
+    margin-top: 25px;
+}
+.mission-content{
+    padding: 20px 5%;
+}
+.mission-head{
+    font-size: 2rem;
+}
+.mission-paragraph{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.6; 
+}

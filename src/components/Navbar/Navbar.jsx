@@ -17,9 +17,9 @@ function Navbar(){
                     <ul className="navigation-links" onClick={() => setOpen(false)}>
                         <Link to='/'><li>Home</li></Link> 
                         <Link to='/About'><li >About</li></Link>
-                        <li>Academics</li>
-                        <li>Gallery</li>
-                        <li>Contact</li>
+                        <Link to='/Academics'><li>Academics</li></Link>
+                        <Link to='/Gallery'><li>Gallery</li></Link>
+                        <Link to='/Contact'><li>Contact</li></Link>
                     </ul>
                 </div>
                 <div className="nav-lang">
